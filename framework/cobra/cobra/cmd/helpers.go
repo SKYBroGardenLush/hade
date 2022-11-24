@@ -19,7 +19,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
 )
 
 var srcPaths []string

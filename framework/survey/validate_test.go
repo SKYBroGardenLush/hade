@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/survey/core"
+	"github.com/SKYBroGardenLush/skyscraper/framework/survey/core"
 )
 
 func TestRequired_canSucceedOnPrimitiveTypes(t *testing.T) {

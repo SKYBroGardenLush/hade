@@ -8,8 +8,8 @@ package main
 import (
 	"log"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/cobra"
-	"github.com/SKYBroGardenLush/skycraper/framework/cobra/doc"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra/doc"
 )
 
 func main() {

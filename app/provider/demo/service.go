@@ -1,6 +1,6 @@
 package demo
 
-import "github.com/SKYBroGardenLush/skycraper/framework"
+import "github.com/SKYBroGardenLush/skyscraper/framework"
 
 type Service struct {
   container framework.Container
@@ -18,8 +18,8 @@ func (s *Service) GetAllStudent() []Student {
       Name: "foo",
     },
     {
-      ID: 2,
-			Name: "bar",
-		},
-	}
+      ID:   2,
+      Name: "bar",
+    },
+  }
 }

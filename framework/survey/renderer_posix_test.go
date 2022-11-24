@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/survey/terminal"
+	"github.com/SKYBroGardenLush/skyscraper/framework/survey/terminal"
 	pseudotty "github.com/creack/pty"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

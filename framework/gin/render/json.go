@@ -10,8 +10,8 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/gin/internal/bytesconv"
-	"github.com/SKYBroGardenLush/skycraper/framework/gin/internal/json"
+	"github.com/SKYBroGardenLush/skyscraper/framework/gin/internal/bytesconv"
+	"github.com/SKYBroGardenLush/skyscraper/framework/gin/internal/json"
 )
 
 // JSON contains the given interface object.

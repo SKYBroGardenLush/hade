@@ -1,10 +1,10 @@
 package Log
 
 import (
-	"github.com/SKYBroGardenLush/skycraper/framework"
-	"github.com/SKYBroGardenLush/skycraper/framework/contract"
-	"github.com/SKYBroGardenLush/skycraper/framework/provider/Log/formatter"
-	"github.com/SKYBroGardenLush/skycraper/framework/provider/Log/services"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/provider/Log/formatter"
+	"github.com/SKYBroGardenLush/skyscraper/framework/provider/Log/services"
 
 	"io"
 	"strings"

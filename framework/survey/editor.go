@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/survey/terminal"
+	"github.com/SKYBroGardenLush/skyscraper/framework/survey/terminal"
 	shellquote "github.com/kballard/go-shellquote"
 )
 

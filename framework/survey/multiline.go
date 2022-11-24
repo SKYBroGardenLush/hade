@@ -3,7 +3,7 @@ package survey
 import (
 	"strings"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/survey/terminal"
+	"github.com/SKYBroGardenLush/skyscraper/framework/survey/terminal"
 )
 
 type Multiline struct {

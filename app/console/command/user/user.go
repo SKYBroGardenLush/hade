@@ -1,7 +1,7 @@
 package user
 
 import (
-	"github.com/SKYBroGardenLush/skycraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
 )
 
 var UserCommand = &cobra.Command{

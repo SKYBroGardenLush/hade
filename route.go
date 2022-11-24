@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/SKYBroGardenLush/skycraper/framework"
-	"github.com/SKYBroGardenLush/skycraper/framework/middlewares"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/middlewares"
 	"time"
 )
 

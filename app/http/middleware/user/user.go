@@ -1,6 +1,6 @@
 package user
 
-import "github.com/SKYBroGardenLush/skycraper/framework/gin"
+import "github.com/SKYBroGardenLush/skyscraper/framework/gin"
 
 // UserMiddleware 代表中间件函数
 func UserMiddleware() gin.HandlerFunc {

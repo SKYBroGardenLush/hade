@@ -2,9 +2,9 @@ package services
 
 import (
 	"fmt"
-	"github.com/SKYBroGardenLush/skycraper/framework"
-	"github.com/SKYBroGardenLush/skycraper/framework/contract"
-	"github.com/SKYBroGardenLush/skycraper/framework/utils"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/utils"
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
 	"github.com/pkg/errors"
 	"os"

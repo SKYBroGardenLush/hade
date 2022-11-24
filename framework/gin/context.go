@@ -7,7 +7,7 @@ package gin
 import (
 	"errors"
 	"fmt"
-	"github.com/SKYBroGardenLush/skycraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
 	"io"
 	"io/ioutil"
 	"math"
@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/gin/binding"
-	"github.com/SKYBroGardenLush/skycraper/framework/gin/render"
+	"github.com/SKYBroGardenLush/skyscraper/framework/gin/binding"
+	"github.com/SKYBroGardenLush/skyscraper/framework/gin/render"
 	"github.com/gin-contrib/sse"
 )
 

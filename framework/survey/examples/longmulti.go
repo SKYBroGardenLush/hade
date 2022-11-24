@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	survey "github.com/SKYBroGardenLush/skycraper/framework/survey"
+	survey "github.com/SKYBroGardenLush/skyscraper/framework/survey"
 )
 
 // the questions to ask

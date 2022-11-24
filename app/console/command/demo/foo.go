@@ -1,7 +1,7 @@
 package demo
 
 import (
-	"github.com/SKYBroGardenLush/skycraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
 	"log"
 )
 

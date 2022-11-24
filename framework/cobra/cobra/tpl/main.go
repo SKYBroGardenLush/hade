@@ -25,7 +25,7 @@ package cmd
 import (
 	"fmt"
 	"os"
-	"github.com/SKYBroGardenLush/skycraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
 {{ if .Viper }}
 	"github.com/spf13/viper"{{ end }}
 )
@@ -110,7 +110,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
 )
 
 // {{ .CmdName }}Cmd represents the {{ .CmdName }} command

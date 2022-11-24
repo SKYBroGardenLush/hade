@@ -3,7 +3,7 @@ package gin
 import (
 	"encoding/xml"
 	"fmt"
-	"github.com/SKYBroGardenLush/skycraper/framework/gin/internal/json"
+	"github.com/SKYBroGardenLush/skyscraper/framework/gin/internal/json"
 	"html/template"
 	"net/http"
 	"net/url"

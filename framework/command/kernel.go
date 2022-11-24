@@ -1,6 +1,6 @@
 package command
 
-import "github.com/SKYBroGardenLush/skycraper/framework/cobra"
+import "github.com/SKYBroGardenLush/skyscraper/framework/cobra"
 
 // AddKernelCommands 将所有command/* 挂载到root command 中去
 func AddKernelCommands(root *cobra.Command) {
@@ -17,4 +17,6 @@ func AddKernelCommands(root *cobra.Command) {
 	root.AddCommand(initCmdCommand())
 	//挂载中间件相关命令
 	root.AddCommand(initMiddlewareCommand())
+	//挂载swagger相关命令
+	root.AddCommand(initSwaggerCommand())
 }

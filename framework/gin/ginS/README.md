@@ -6,8 +6,8 @@ This is API experiment for Gin.
 package main
 
 import (
-	"github.com/SKYBroGardenLush/skycraper/framework/gin"
-	"github.com/SKYBroGardenLush/skycraper/framework/gin/ginS"
+	"github.com/SKYBroGardenLush/skyscraper/framework/gin"
+	"github.com/SKYBroGardenLush/skyscraper/framework/gin/ginS"
 )
 
 func main() {

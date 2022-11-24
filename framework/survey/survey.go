@@ -8,8 +8,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/survey/core"
-	"github.com/SKYBroGardenLush/skycraper/framework/survey/terminal"
+	"github.com/SKYBroGardenLush/skyscraper/framework/survey/core"
+	"github.com/SKYBroGardenLush/skyscraper/framework/survey/terminal"
 )
 
 // DefaultAskOptions is the default options on ask, using the OS stdio.

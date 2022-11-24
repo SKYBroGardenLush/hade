@@ -1,6 +1,6 @@
 package demo
 
-import "github.com/SKYBroGardenLush/skycraper/framework"
+import "github.com/SKYBroGardenLush/skyscraper/framework"
 
 type DemoProvider struct {
 	framework.ServiceProvider

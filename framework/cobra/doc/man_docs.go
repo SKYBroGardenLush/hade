@@ -25,7 +25,7 @@ import (
   "time"
 
   "github.com/cpuguy83/go-md2man/v2/md2man"
-  "github.com/SKYBroGardenLush/skycraper/framework/cobra"
+  "github.com/SKYBroGardenLush/skyscraper/framework/cobra"
   "github.com/spf13/pflag"
 )
 

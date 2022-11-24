@@ -16,7 +16,7 @@ package main
 import (
 	"os"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/cobra/cobra/cmd"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra/cobra/cmd"
 )
 
 func main() {

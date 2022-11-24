@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/gin"
+	"github.com/SKYBroGardenLush/skyscraper/framework/gin"
 )
 
 var once sync.Once

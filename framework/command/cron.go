@@ -2,8 +2,8 @@ package command
 
 import (
 	"fmt"
-	"github.com/SKYBroGardenLush/skycraper/framework/cobra"
-	"github.com/SKYBroGardenLush/skycraper/framework/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/contract"
 	"github.com/erikdubbelboer/gspt"
 	"github.com/sevlyar/go-daemon"
 	"io/ioutil"

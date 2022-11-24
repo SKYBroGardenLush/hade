@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/survey/core"
+	"github.com/SKYBroGardenLush/skyscraper/framework/survey/core"
 )
 
 func TestValidationError(t *testing.T) {

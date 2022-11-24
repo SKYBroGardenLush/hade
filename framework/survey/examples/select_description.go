@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/survey"
+	"github.com/SKYBroGardenLush/skyscraper/framework/survey"
 )
 
 type Meal struct {

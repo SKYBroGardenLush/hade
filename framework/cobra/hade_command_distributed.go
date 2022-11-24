@@ -2,7 +2,7 @@ package cobra
 
 import (
 	"fmt"
-	"github.com/SKYBroGardenLush/skycraper/framework/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/contract"
 	"github.com/robfig/cron/v3"
 	"log"
 	"time"

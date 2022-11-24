@@ -1,8 +1,8 @@
 package app
 
 import (
-	"github.com/SKYBroGardenLush/skycraper/framework"
-	"github.com/SKYBroGardenLush/skycraper/framework/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/contract"
 )
 
 type HadeAppProvider struct {

@@ -18,7 +18,7 @@ import (
 	"os"
 	"unicode"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
 )
 
 var (
@@ -73,7 +73,7 @@ func init() {
 // validateCmdName returns source without any dashes and underscore.
 // If there will be dash or underscore, next letter will be uppered.
 // It supports only ASCII (1-byte character) strings.
-// https://github.com/SKYBroGardenLush/skycraper/framework/cobra/issues/269
+// https://github.com/SKYBroGardenLush/skyscraper/framework/cobra/issues/269
 func validateCmdName(source string) string {
 	i := 0
 	l := len(source)

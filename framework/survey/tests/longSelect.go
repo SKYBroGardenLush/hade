@@ -1,6 +1,6 @@
 package main
 
-import "github.com/SKYBroGardenLush/skycraper/framework/survey"
+import "github.com/SKYBroGardenLush/skyscraper/framework/survey"
 
 func main() {
 	color := ""

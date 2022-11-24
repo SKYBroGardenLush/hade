@@ -8,7 +8,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/gin/internal/json"
+	"github.com/SKYBroGardenLush/skyscraper/framework/gin/internal/json"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/SKYBroGardenLush/skycraper/framework/survey"
-	TestUtil "github.com/SKYBroGardenLush/skycraper/framework/survey/tests/util"
+	"github.com/SKYBroGardenLush/skyscraper/framework/survey"
+	TestUtil "github.com/SKYBroGardenLush/skyscraper/framework/survey/tests/util"
 )
 
 var val = ""

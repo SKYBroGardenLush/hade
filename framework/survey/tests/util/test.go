@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/survey"
+	"github.com/SKYBroGardenLush/skyscraper/framework/survey"
 )
 
 type TestTableEntry struct {

@@ -1,7 +1,7 @@
 package static
 
 import (
-	"github.com/SKYBroGardenLush/skycraper/framework/gin"
+	"github.com/SKYBroGardenLush/skyscraper/framework/gin"
 	"net/http"
 	"os"
 	"path"

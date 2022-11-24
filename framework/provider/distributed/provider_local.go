@@ -1,8 +1,8 @@
 package distributed
 
 import (
-	"github.com/SKYBroGardenLush/skycraper/framework"
-	"github.com/SKYBroGardenLush/skycraper/framework/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/contract"
 )
 
 // LocalDistributedProvider 提供App的具体实现方法

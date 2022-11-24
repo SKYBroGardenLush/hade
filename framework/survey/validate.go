@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/survey/core"
+	"github.com/SKYBroGardenLush/skyscraper/framework/survey/core"
 )
 
 // Required does not allow an empty value

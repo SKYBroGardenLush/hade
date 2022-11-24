@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/gin/internal/bytesconv"
+	"github.com/SKYBroGardenLush/skyscraper/framework/gin/internal/bytesconv"
 )
 
 // String contains the given interface object slice and its format.

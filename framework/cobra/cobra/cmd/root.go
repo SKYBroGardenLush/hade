@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
 	"github.com/spf13/viper"
 )
 

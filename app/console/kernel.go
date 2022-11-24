@@ -1,10 +1,10 @@
 package console
 
 import (
-	"github.com/SKYBroGardenLush/skycraper/app/console/command/demo"
-	"github.com/SKYBroGardenLush/skycraper/framework"
-	"github.com/SKYBroGardenLush/skycraper/framework/cobra"
-	"github.com/SKYBroGardenLush/skycraper/framework/command"
+	"github.com/SKYBroGardenLush/skyscraper/app/console/command/demo"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/command"
 	"time"
 )
 

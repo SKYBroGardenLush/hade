@@ -5,8 +5,8 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/cobra"
-	"github.com/SKYBroGardenLush/skycraper/framework/cobra/cobra/tpl"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra"
+	"github.com/SKYBroGardenLush/skyscraper/framework/cobra/cobra/tpl"
 )
 
 // Project contains name, license and paths to projects.

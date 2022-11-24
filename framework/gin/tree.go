@@ -11,7 +11,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/gin/internal/bytesconv"
+	"github.com/SKYBroGardenLush/skyscraper/framework/gin/internal/bytesconv"
 )
 
 var (

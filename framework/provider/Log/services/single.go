@@ -1,9 +1,9 @@
 package services
 
 import (
-	"github.com/SKYBroGardenLush/skycraper/framework"
-	"github.com/SKYBroGardenLush/skycraper/framework/contract"
-	"github.com/SKYBroGardenLush/skycraper/framework/utils"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/utils"
 	"github.com/pkg/errors"
 	"os"
 	"path/filepath"

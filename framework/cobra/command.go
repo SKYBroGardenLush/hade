@@ -19,7 +19,7 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/SKYBroGardenLush/skycraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
 	"github.com/robfig/cron/v3"
 	"io"
 	"os"
@@ -409,7 +409,7 @@ func (c *Command) HelpFunc() func(*Command, []string) {
 	return func(c *Command, a []string) {
 		c.mergePersistentFlags()
 		// The help should be sent to stdout
-		// See https://github.com/SKYBroGardenLush/skycraper/framework/cobra/issues/1002
+		// See https://github.com/SKYBroGardenLush/skyscraper/framework/cobra/issues/1002
 		err := tmpl(c.OutOrStdout(), c.HelpTemplate(), c)
 		if err != nil {
 			c.PrintErrln(err)
@@ -1397,7 +1397,7 @@ func (c *Command) IsAvailableCommand() bool {
 // help topic command; additional help topic command is determined by the
 // fact that it is NOT runnable/hidden/deprecated, and has no sub commands that
 // are runnable/hidden/deprecated.
-// Concrete example: https://github.com/SKYBroGardenLush/skycraper/framework/cobra/issues/393#issuecomment-282741924.
+// Concrete example: https://github.com/SKYBroGardenLush/skyscraper/framework/cobra/issues/393#issuecomment-282741924.
 func (c *Command) IsAdditionalHelpTopicCommand() bool {
 	// if a command is runnable, deprecated, or hidden it is not a 'help' command
 	if c.Runnable() || len(c.Deprecated) != 0 || c.Hidden {

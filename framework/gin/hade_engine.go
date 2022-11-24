@@ -1,6 +1,6 @@
 package gin
 
-import "github.com/SKYBroGardenLush/skycraper/framework"
+import "github.com/SKYBroGardenLush/skyscraper/framework"
 
 func (engine *Engine) SetContainer(container framework.Container) {
 	engine.container = container
@@ -14,4 +14,9 @@ func (engine *Engine) Bind(provider framework.ServiceProvider) error {
 // IsBind 关键字凭证是否已经绑定服务提供者
 func (engine *Engine) IsBind(key string) bool {
 	return engine.container.IsBind(key)
+}
+
+// GetContainer 获取container
+func (engine *Engine) GetContainer() framework.Container {
+	return engine.container
 }

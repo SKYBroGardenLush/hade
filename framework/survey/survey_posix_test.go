@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	expect "github.com/Netflix/go-expect"
-	"github.com/SKYBroGardenLush/skycraper/framework/survey/terminal"
+	"github.com/SKYBroGardenLush/skyscraper/framework/survey/terminal"
 	pseudotty "github.com/creack/pty"
 	"github.com/hinshun/vt10x"
 )

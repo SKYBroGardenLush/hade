@@ -7,7 +7,7 @@ package gin
 import (
 	"log"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/gin/binding"
+	"github.com/SKYBroGardenLush/skyscraper/framework/gin/binding"
 )
 
 // BindWith binds the passed struct pointer using the specified binding engine.

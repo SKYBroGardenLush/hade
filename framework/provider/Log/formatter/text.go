@@ -3,7 +3,7 @@ package formatter
 import (
 	"bytes"
 	"fmt"
-	"github.com/SKYBroGardenLush/skycraper/framework/contract"
+	"github.com/SKYBroGardenLush/skyscraper/framework/contract"
 	"time"
 )
 

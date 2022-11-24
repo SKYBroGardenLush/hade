@@ -1,6 +1,6 @@
 # Survey
 
-[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://pkg.go.dev/github.com/SKYBroGardenLush/skycraper/framework/survey)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-5272B4.svg)](https://pkg.go.dev/github.com/SKYBroGardenLush/skyscraper/framework/survey)
 
 A library for building interactive and accessible prompts on terminals supporting ANSI escape sequences.
 
@@ -11,7 +11,7 @@ package main
 
 import (
     "fmt"
-    "github.com/SKYBroGardenLush/skycraper/framework/survey"
+    "github.com/SKYBroGardenLush/skyscraper/framework/survey"
 )
 
 // the questions to ask
@@ -363,7 +363,7 @@ By default, users can select all of the multi-select options using the right arr
 
 ```golang
 import (
-    "github.com/SKYBroGardenLush/skycraper/framework/survey"
+    "github.com/SKYBroGardenLush/skyscraper/framework/survey"
 )
 
 number := ""
@@ -378,7 +378,7 @@ Also by default, users can use the left arrow key to unselect all of the options
 
 ```golang
 import (
-    "github.com/SKYBroGardenLush/skycraper/framework/survey"
+    "github.com/SKYBroGardenLush/skyscraper/framework/survey"
 )
 
 number := ""
@@ -397,7 +397,7 @@ looks for with `WithHelpInput`:
 
 ```golang
 import (
-    "github.com/SKYBroGardenLush/skycraper/framework/survey"
+    "github.com/SKYBroGardenLush/skyscraper/framework/survey"
 )
 
 number := ""
@@ -416,7 +416,7 @@ follows the patterns outlined [here](https://github.com/mgutz/ansi#style-format)
 
 ```golang
 import (
-    "github.com/SKYBroGardenLush/skycraper/framework/survey"
+    "github.com/SKYBroGardenLush/skyscraper/framework/survey"
 )
 
 number := ""
@@ -496,7 +496,7 @@ and likely to break your application in these situations. See [#337](https://git
 Ordinarily, when you type Ctrl-C, the terminal recognizes this as the QUIT button and delivers a SIGINT signal to the process, which terminates it.
 However, Survey temporarily configures the terminal to deliver control codes as ordinary input bytes.
 When Survey reads a ^C byte (ASCII \x03, "end of text"), it interrupts the current survey and returns a
-`github.com/SKYBroGardenLush/skycraper/framework/survey/terminal.InterruptErr` from `Ask` or `AskOne`.
+`github.com/SKYBroGardenLush/skyscraper/framework/survey/terminal.InterruptErr` from `Ask` or `AskOne`.
 If you want to stop the process, handle the returned error in your code:
 
 ```go

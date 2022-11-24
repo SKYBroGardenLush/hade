@@ -3,8 +3,8 @@ package survey
 import (
 	"errors"
 
-	"github.com/SKYBroGardenLush/skycraper/framework/survey/core"
-	"github.com/SKYBroGardenLush/skycraper/framework/survey/terminal"
+	"github.com/SKYBroGardenLush/skyscraper/framework/survey/core"
+	"github.com/SKYBroGardenLush/skyscraper/framework/survey/terminal"
 )
 
 /*

@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/SKYBroGardenLush/skycraper/app/console"
-	"github.com/SKYBroGardenLush/skycraper/app/http"
-	"github.com/SKYBroGardenLush/skycraper/framework"
-	"github.com/SKYBroGardenLush/skycraper/framework/provider/app"
-	"github.com/SKYBroGardenLush/skycraper/framework/provider/config"
-	"github.com/SKYBroGardenLush/skycraper/framework/provider/distributed"
-	"github.com/SKYBroGardenLush/skycraper/framework/provider/env"
-	"github.com/SKYBroGardenLush/skycraper/framework/provider/kernel"
+	"github.com/SKYBroGardenLush/skyscraper/app/console"
+	"github.com/SKYBroGardenLush/skyscraper/app/http"
+	"github.com/SKYBroGardenLush/skyscraper/framework"
+	"github.com/SKYBroGardenLush/skyscraper/framework/provider/app"
+	"github.com/SKYBroGardenLush/skyscraper/framework/provider/config"
+	"github.com/SKYBroGardenLush/skyscraper/framework/provider/distributed"
+	"github.com/SKYBroGardenLush/skyscraper/framework/provider/env"
+	"github.com/SKYBroGardenLush/skyscraper/framework/provider/kernel"
 )
 
 func main() {
@@ -52,9 +52,10 @@ func main() {
 	container.Bind(&distributed.LocalDistributedProvider{})
 
 	container.Bind(&env.HadeEnvProvider{})
+
 	container.Bind(&config.HadeConfigProvider{})
 
-	if engine, err := http.NewHttpEngine(); err == nil {
+	if engine, err := http.NewHttpEngine(container); err == nil {
 		container.Bind(&kernel.HadeKernelProvider{HttpEngine: engine})
 	}
 
